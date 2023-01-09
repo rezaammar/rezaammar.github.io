@@ -1,0 +1,110 @@
+@media screen and (max-width: 1000px) {
+    .utama, .penulis {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+body    {
+    background-color: rgb(94, 91, 91);
+    margin: 0px;
+    padding: 0px;
+}
+
+.jumbotron  {
+    background-image: url("img/jumbotron.jpg");
+    background-size: cover;
+    height: 250px;
+}
+.jumbotron h1 {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.konten-tujuan {
+    background-color: white;
+    height: 200px;
+    position: relative;
+}
+.konten-tujuan p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.konten-produk {
+    margin-top: 10px;
+    min-height: 500px;
+    background-color: white;
+}
+.konten-produk .thumbnail {
+    opacity: 0;
+    transform: translate(0,-30px);
+    transition: 1s;
+}
+.konten-produk .thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.row-1 img {
+    width: 341px;
+    height: 430px;
+}
+.row-2 img {
+    width: 341px;
+    height: 250px;
+}
+
+.testimoni h3 {
+    color: white;
+}
+
+.keuntungan {
+    min-height: 400px;
+    background-color: white;  
+}
+.kontainer-keuntungan {
+    background-color: lightsalmon;
+    height: 250px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 10px;
+}
+.pembungkus-list {
+    width: 300px;
+    margin: 5px auto;
+    padding: 0px;
+}
+/*
+.cta {
+    background-color: green;
+    border-radius: 5px;
+    border: 0px solid black;
+    margin: 10px auto;
+    box-shadow: 5px 5px solid black;
+}*/
+
+.kontainer-keuntungan a {
+    background-color: green;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.70);
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(37, 71, 77);
+}
+.footer p {
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
